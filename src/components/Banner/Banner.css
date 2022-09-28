@@ -6,13 +6,6 @@
 .banner-info{
     width: 60%;
 }
-.banner-info .banner-heading{
-    font-size: 100px;
-    font-weight: var(--font-normal);
-    font-family: var(--font-dm);
-    letter-spacing: -0.03em;
-    color: var(--text-black);
-}
 .banner-info p{
     font-size: 24px;
     font-family: var(--font-inter);
@@ -31,10 +24,12 @@
 }
 .service-icon{
     margin-right: 16px;
+    align-items: center;
 }
 .service-info p{
     font-family: var(--font-inter);
     font-size: 18px;
+    align-items: center;
     font-weight: var(--font-normal);
 }
 .compare-btn{

@@ -7,7 +7,7 @@ const Banner =()=>{
     return(
         <div className="container banner">
             <div className="banner-info">
-                <h2 className="banner-heading">
+                <h2 className="section-heading">
                 Banking <br/> Starts Here.
                 </h2>
                 <p className="text-b">
