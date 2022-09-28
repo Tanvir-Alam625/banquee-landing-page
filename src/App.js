@@ -1,4 +1,5 @@
 import './App.css';
+import AppSection from './components/AppSection/AppSection';
 import Banner from './components/Banner/Banner';
 import Header from './components/Header/Header';
 
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Header />
       <Banner />
+      <AppSection />
     </div>
   );
 }
