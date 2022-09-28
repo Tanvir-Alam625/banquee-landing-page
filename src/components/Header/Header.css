@@ -1,3 +1,8 @@
+.header-container{
+    max-width: 1400px;
+    padding: 29.5px 5px;
+    margin: 0 auto;
+  }
 .nav-logo{
     color: var(--primary-color);
     font-size: 32px;
@@ -69,7 +74,7 @@
     position: absolute;
     height: 0;
     top: 70px;
-    border: 0.1rem solid gray;
+    border: 0.1rem solid rgb(195, 189, 189);
     border-radius: 7px;
     display: none;
 }

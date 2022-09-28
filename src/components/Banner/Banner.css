@@ -1,0 +1,64 @@
+.banner{
+    display: flex;
+    margin: 100px auto;
+    align-items: center;
+}
+.banner-info{
+    width: 60%;
+}
+.banner-info .banner-heading{
+    font-size: 100px;
+    font-weight: var(--font-normal);
+    font-family: var(--font-dm);
+    letter-spacing: -0.03em;
+    color: var(--text-black);
+}
+.banner-info p{
+    font-size: 24px;
+    font-family: var(--font-inter);
+    font-weight: var(--font-normal);
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 80px;
+    row-gap: 16px;
+    margin: 80px 0;
+}
+.service-item{
+    display: flex;
+    align-items: center;
+}
+.service-icon{
+    margin-right: 16px;
+}
+.service-info p{
+    font-family: var(--font-inter);
+    font-size: 18px;
+    font-weight: var(--font-normal);
+}
+.compare-btn{
+    color: var(--primary-color);
+    background-color: white;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: var(--font-normal);
+    font-family: var(--font-dm);
+    line-height: 100%;
+    transition: var(--trasition-delay);
+}
+.arrow{
+    color: var(--primary-color);
+}
+.compare-btn:hover{
+    background-color: var(--light-blue1);
+}
+.banner-img{
+    width: 40%;
+    display: flex;
+    justify-content: end;
+}
+.card-img{
+    width: 400px;
+    height: 580px;
+}
