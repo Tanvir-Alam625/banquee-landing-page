@@ -1,0 +1,27 @@
+.features{
+    margin-top: 150px;
+}
+.account-type{
+    font-size: 20px;
+    font-family: var(--font-dm);
+    font-weight: var(--font-normal);
+    line-height: 120%;
+    margin-bottom: 16px;
+    color: var(--text-black);
+}
+.features-des{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.features-des .description p{
+    font-size: 20px;
+    font-family: var(--font-inter);
+    font-weight: var(--font-normal);
+    line-height: 180%;
+}
+.features-items{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column: 33px;
+}

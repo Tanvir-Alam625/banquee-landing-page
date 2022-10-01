@@ -26,7 +26,7 @@ html{
     margin: 0 auto;
 }
 .section-heading{
-  font-size: 100px;
+  font-size: 90px;
   font-weight: var(--font-normal);
   font-family: var(--font-dm);
   letter-spacing: -0.03em;
@@ -61,4 +61,13 @@ color: var(--text-black);
 .account-btn:hover{
   background-color: var(--light-blue1);
   color: var(--primary-color);
+}
+.transparent-btn{
+  margin: 0 16px;
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: var(--font-normal);
+  background-color: white;
+  border-radius: 7px;
+  transition: var(--transition-delay);
 }

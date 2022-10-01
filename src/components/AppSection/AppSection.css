@@ -39,7 +39,16 @@
     width: 45%;
     display: flex;
     justify-content: end;
+    position: relative;
 }
-.app-img-container img{
-    width: 100%;
+.app-img-container .app-img{
+    width: 380px;
+    height: 800px;
+}
+.app-img-container .card-img{
+    width: 310px;
+    height: 186px;
+    position: absolute;
+    top: 9%;
+    right: 7%;
 }

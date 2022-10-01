@@ -6,7 +6,8 @@ import Badge2 from "../../images/badge2.png"
 import Badge3 from "../../images/badge3.png"
 import Badge4 from "../../images/badge4.png"
 import Badge5 from "../../images/badge5.png"
-import AppImg from "../../images/app.jpg"
+import AppImg from "../../images/app.jpg";
+import Card from '../../images/card.png';
 const AppSection =()=>{
     return(
         <div className="container app-section">
@@ -59,7 +60,8 @@ const AppSection =()=>{
                 </div>
             </div>
             <div className="app-img-container">
-                <img src={AppImg} alt="app-img" />
+                <img src={AppImg} alt="app-img"  className="app-img"/>
+                <img src={Card} alt="card-img" className="card-img" />
             </div>
         </div>
     );

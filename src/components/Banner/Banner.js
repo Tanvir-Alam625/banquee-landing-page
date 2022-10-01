@@ -1,6 +1,6 @@
 import React from "react";
 import "./Banner.css";
-import { bannerRightIcon, bannerArrowRightIcon } from "../Icon/Icon";
+import { bannerRightIcon, ArrowRightIcon } from "../Icon/Icon";
 import Cards from "../../images/cards.png"
 
 const Banner =()=>{
@@ -49,7 +49,7 @@ const Banner =()=>{
                 </div>
                 <div className="banner-btn-container">
                     <button className="btn account-btn">Open Account</button>
-                    <button className="btn compare-btn">Compare Cards  <span className="arrow">{bannerArrowRightIcon}</span></button>
+                    <button className="btn compare-btn">Compare Cards  <span className="arrow">{ArrowRightIcon}</span></button>
                 </div>
 
             </div>
