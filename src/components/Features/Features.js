@@ -13,31 +13,29 @@ const Features =()=>{
             id:1,
             img:Features1,
             name:"New Laptop",
-            sub: '400S'
+            sub: '400'
         },
         {
             id:2,
             img:Features2,
-            name:"New Laptop",
-            sub: '400S'
+            name:"Bream bik",
+            sub: '200'
         },
         {
             id:3,
             img:Features3,
-            name:"New Laptop",
-            sub: '400S'
+            name:"Holiday",
+            sub: '14000'
         },
         {
             id:4,
             img:Features4,
-            name:"New Laptop",
-            sub: '400S'
+            name:"Camera",
+            sub: '100'
         },
         {
             id:5,
             img:Features5,
-            name:"New Laptop",
-            sub: '400S'
         },
     ]
     return (
@@ -56,13 +54,21 @@ const Features =()=>{
                 </div>
             </div>
             <div className='features-items'>
-                <div className='feature'>
-                    <img src='' alt='feature-img'/>
-                    <h4 className='fetures-name'> New Laptop</h4>
-                    <p>
-                        400S
-                    </p>
-                </div>
+                {
+                    featuresItems?.map(feature=> {
+                        return (
+                            <div className='feature' key={feature.id}>
+                                <img src={feature?.img} alt='feature-img'/>
+                               {
+                                feature.name &&  <h4 className='fetures-name'>{feature?.name}</h4>
+                               }
+                                {
+                                    feature.sub && <p> {feature?.sub}$</p>
+                                }
+                            </div>
+                        );
+                    })
+                }
             </div>
         </div>
     );

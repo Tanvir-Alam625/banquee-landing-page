@@ -24,4 +24,20 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-column: 33px;
+    margin:64px 0;
+}
+.feature{
+    cursor:pointer;
+}
+.feature h4{
+    font-size: 20px;
+    font-family: var(--font-dm);
+    font-weight: var(--font-normal);
+    margin-top: 16px;
+}
+.feature p{
+    font-family:var(--font-inter);
+    font-size:14px;
+    color:rgba(26, 25, 30, 0.5);
+    margin-top:5px;
 }
