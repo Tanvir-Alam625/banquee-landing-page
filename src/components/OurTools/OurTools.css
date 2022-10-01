@@ -1,0 +1,14 @@
+.tools{
+    margin-top:80px;
+    margin-bottom:80px;
+}
+.first-column{
+    display:flex;
+    column-gap:16px;
+    margin-bottom:16px;
+}
+.second-column{
+    display:flex;
+    column-gap:16px;
+    margin-bottom:16px;
+}
